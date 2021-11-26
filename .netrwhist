@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/john/.SpaceVim.d'
+let g:netrw_dirhist_0='/Users/john/.SpaceVim'
+let g:netrw_dirhist_9='/Users/john/.SpaceVim/.SpaceVim.d'
+let g:netrw_dirhist_8='/Users/john/.SpaceVim'
+let g:netrw_dirhist_7='/Users/john/work-cnvr'
+let g:netrw_dirhist_6='/Users/john/Applications/Edge Dev App.localized/Outlook.app/Contents/MacOS'
+let g:netrw_dirhist_5='/Users/john/Applications/Edge Dev App.localized/Outlook.app/Contents'
+let g:netrw_dirhist_4='/Users/john/Applications/Edge Dev App.localized/Outlook.app'
+let g:netrw_dirhist_3='/Users/john/Applications/Edge Dev App.localized'
+let g:netrw_dirhist_2='/Users/john/Applications'

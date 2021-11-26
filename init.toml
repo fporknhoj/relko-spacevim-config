@@ -1,0 +1,87 @@
+#=============================================================================
+# basic.toml --- basic configuration example for SpaceVim
+# Copyright (c) 2016-2020 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+[[custom_plugins]]
+repo = 'altercation/vim-colors-solarized'
+merged = 0
+
+[[custom_plugins]]
+repo = 'instant-markdown/vim-instant-markdown' # requires `npm -g instant-markdown-d`
+merged = 0
+
+[[custom_plugins]]
+repo = 'vim-scripts/dbext.vim'
+merged = 0
+
+# All SpaceVim option below [option] section
+[options]
+    # set spacevim theme. by default colorscheme layer is not loaded,
+    # if you want to use more colorscheme, please load the colorscheme
+    # layer
+    colorscheme = "solarized"
+    colorscheme_bg = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
+    enable_guicolors = false
+    # Disable statusline separator, if you want to use other value, please
+    # install nerd fonts
+    statusline_separator = "nil"
+    statusline_iseparator = "bar"
+    buffer_index_type = 4
+    windows_index_type = 3
+    enable_tabline_filetype_icon = false
+    enable_statusline_mode = false
+    statusline_unicode_symbols = false
+    # Enable vim compatible mode, avoid changing origin vim key bindings
+    vimcompatible = true
+    filemanager = "defx"
+    guifont="Menlo:h13"
+#guifont="Pragmata Pro Mono:h13"
+#guifont="Consolas:h13"
+#guifont="Cascadia Code:h13"
+#guifont="cascadia code:h13"
+#guifont="anonymous pro:h13"
+#guifont="input:h12"
+#guifont="Victor Mono:h12"
+#guifont="Letter Gothic Code:h13"
+#guifont="Menlo:h13"
+#guifont="PT Mono:14"
+#guifont="Courier Prime Code:h14"
+#guifont="Anka/Coder:h13"
+#guifont="Cascadia Code:h13"
+#guifont="PragmataPro:h13"
+#guifont="Iosevka Curly:h13"
+#guifont="Courier Prime Code:h13"
+#guifont="DecimaMonoX:h14"
+#guifont="Terminal Land Mono Sans:h14"
+#escape_key_binding = "jj"
+
+# Enable autocomplete layer
+[[layers]]
+name = 'autocomplete'
+auto_completion_return_key_behavior = "complete"
+auto_completion_tab_key_behavior = "cycle"
+auto_completion_delay = 200
+
+[[layers]]
+name = 'shell'
+default_position = 'top'
+default_height = 30
+
+[[layers]]
+name = "lang#python"
+python_interpreter = "/usr/local/bin/python3"
+
+[[layers]]
+  name = "lang#racket"
+
+[[layers]]
+  name = "lang#javascript"
+
+[[layers]]
+  name = "lang#ruby"
