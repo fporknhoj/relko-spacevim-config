@@ -20,46 +20,29 @@ merged = 0
 
 # All SpaceVim option below [option] section
 [options]
-    # set spacevim theme. by default colorscheme layer is not loaded,
-    # if you want to use more colorscheme, please load the colorscheme
-    # layer
-    colorscheme = "solarized"
-    colorscheme_bg = "dark"
-    # Disable guicolors in basic mode, many terminal do not support 24bit
-    # true colors
-    enable_guicolors = false
-    # Disable statusline separator, if you want to use other value, please
-    # install nerd fonts
-    statusline_separator = "nil"
-    statusline_iseparator = "bar"
-    buffer_index_type = 4
-    windows_index_type = 3
-    enable_tabline_filetype_icon = false
-    enable_statusline_mode = false
-    statusline_unicode_symbols = false
-    # Enable vim compatible mode, avoid changing origin vim key bindings
-    vimcompatible = true
-    filemanager = "defx"
-    guifont="Menlo:h13"
-#guifont="Pragmata Pro Mono:h13"
-#guifont="Consolas:h13"
-#guifont="Cascadia Code:h13"
-#guifont="cascadia code:h13"
-#guifont="anonymous pro:h13"
-#guifont="input:h12"
-#guifont="Victor Mono:h12"
-#guifont="Letter Gothic Code:h13"
-#guifont="Menlo:h13"
-#guifont="PT Mono:14"
-#guifont="Courier Prime Code:h14"
-#guifont="Anka/Coder:h13"
-#guifont="Cascadia Code:h13"
-#guifont="PragmataPro:h13"
-#guifont="Iosevka Curly:h13"
-#guifont="Courier Prime Code:h13"
-#guifont="DecimaMonoX:h14"
-#guifont="Terminal Land Mono Sans:h14"
-#escape_key_binding = "jj"
+  # set spacevim theme. by default colorscheme layer is not loaded,
+  # if you want to use more colorscheme, please load the colorscheme
+  # layer
+  colorscheme = "solarized" # "gruvbox" 
+  colorscheme_bg = "dark"
+  # Disable guicolors in basic mode, many terminal do not support 24bit
+  # true colors
+  enable_guicolors = false
+  # Disable statusline separator, if you want to use other value, please
+  # install nerd fonts
+  statusline_separator = "nil"
+  statusline_iseparator = "nil"
+  buffer_index_type = 4
+  windows_index_type = 3
+  enable_tabline_filetype_icon = false
+  enable_statusline_mode = false
+  statusline_unicode_symbols = false
+  # Enable vim compatible mode, avoid changing origin vim key bindings
+  vimcompatible = true
+  filemanager = "defx"
+  guifont="Menlo:h13" #"Pragmata Pro Mono:h13" "DecimaMonoX:h14" "Terminal Land Mono Sans:h14"
+  automatic_update=true
+  bootstrap_before="spacevim#before"
 
 # Enable autocomplete layer
 [[layers]]
@@ -85,3 +68,15 @@ python_interpreter = "/usr/local/bin/python3"
 
 [[layers]]
   name = "lang#ruby"
+
+[[layers]]
+  name = "lang#r"
+
+[[layers]]
+  name = "tmux"
+
+[[layers]]
+  name = "lang#json"
+
+[[layers]]
+  name = "lang#markdown"
