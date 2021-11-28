@@ -11,38 +11,38 @@ repo = 'altercation/vim-colors-solarized'
 merged = 0
 
 [[custom_plugins]]
-repo = 'instant-markdown/vim-instant-markdown' # requires `npm -g instant-markdown-d`
+repo = 'wsdjeg/vim-todo'
+merged = 0
+
+[[custom_plugins]]
+# requires `npm -g instant-markdown-d`
+repo = 'instant-markdown/vim-instant-markdown' 
 merged = 0
 
 [[custom_plugins]]
 repo = 'vim-scripts/dbext.vim'
 merged = 0
 
-# All SpaceVim option below [option] section
 [options]
-  # set spacevim theme. by default colorscheme layer is not loaded,
-  # if you want to use more colorscheme, please load the colorscheme
-  # layer
-  colorscheme = "solarized" # "gruvbox" 
-  colorscheme_bg = "dark"
-  # Disable guicolors in basic mode, many terminal do not support 24bit
-  # true colors
-  enable_guicolors = false
-  # Disable statusline separator, if you want to use other value, please
-  # install nerd fonts
-  statusline_separator = "nil"
-  statusline_iseparator = "nil"
-  buffer_index_type = 4
-  windows_index_type = 3
-  enable_tabline_filetype_icon = false
-  enable_statusline_mode = false
-  statusline_unicode_symbols = false
-  # Enable vim compatible mode, avoid changing origin vim key bindings
-  vimcompatible = true
-  filemanager = "defx"
-  guifont="Menlo:h13" #"Pragmata Pro Mono:h13" "DecimaMonoX:h14" "Terminal Land Mono Sans:h14"
-  automatic_update=true
-  bootstrap_before="spacevim#before"
+bootstrap_before = "spacevim#before"
+colorscheme = "solarized" # "gruvbox" 
+colorscheme_bg = "dark"
+enable_guicolors = false
+enable_statusline_mode = true
+enable_tabline_filetype_icon = false
+enable_os_fileformat_icon = false 
+statusline_unicode_symbols = false
+statusline_separator = "nil"
+statusline_iseparator = "nil"
+buffer_index_type = 0 #4
+windows_index_type = 3
+vimcompatible = true
+filemanager = "defx"
+guifont="Menlo:h13" 
+# "Pragmata Pro Mono:h13" 
+# "DecimaMonoX:h14" 
+# "Terminal Land Mono Sans:h13"
+automatic_update = true
 
 # Enable autocomplete layer
 [[layers]]
@@ -60,23 +60,26 @@ default_height = 30
 name = "lang#python"
 python_interpreter = "/usr/local/bin/python3"
 
-[[layers]]
-  name = "lang#racket"
+#[[layers]]
+#name=colorscheme
 
 [[layers]]
-  name = "lang#javascript"
+name = "lang#racket"
 
 [[layers]]
-  name = "lang#ruby"
+name = "lang#javascript"
 
 [[layers]]
-  name = "lang#r"
+name = "lang#ruby"
 
 [[layers]]
-  name = "tmux"
+name = "lang#r"
 
 [[layers]]
-  name = "lang#json"
+name = "tmux"
 
 [[layers]]
-  name = "lang#markdown"
+name = "lang#json"
+
+[[layers]]
+name = "lang#markdown"
