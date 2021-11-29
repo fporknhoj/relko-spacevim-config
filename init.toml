@@ -57,17 +57,23 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
-name = "lang#python"
-python_interpreter = "/usr/local/bin/python3"
+name = "tmux"
 
 #[[layers]]
 #name=colorscheme
 
 [[layers]]
-name = "lang#racket"
+name = "lang#python"
+python_interpreter = "/usr/local/bin/python3"
 
 [[layers]]
 name = "lang#javascript"
+
+[[layers]]
+name = "lang#racket"
+
+[[layers]]
+name = "lang#scheme"
 
 [[layers]]
 name = "lang#ruby"
@@ -76,10 +82,16 @@ name = "lang#ruby"
 name = "lang#r"
 
 [[layers]]
-name = "tmux"
-
-[[layers]]
 name = "lang#json"
 
 [[layers]]
 name = "lang#markdown"
+
+[[layers]]
+name = "lang#scala"
+
+[[layers]]
+name = "VersionControl"
+
+[[layers]]
+name = "lang#perl"
