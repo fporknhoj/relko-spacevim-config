@@ -25,7 +25,7 @@ merged = 0
 
 [options]
 bootstrap_before = "spacevim#before"
-colorscheme = "solarized" # "gruvbox" 
+colorscheme = "solarized" #"gruvbox" 
 colorscheme_bg = "dark"
 enable_guicolors = false
 enable_statusline_mode = true
@@ -37,8 +37,13 @@ statusline_iseparator = "nil"
 buffer_index_type = 0 #4
 windows_index_type = 3
 vimcompatible = true
-filemanager = "defx"
-guifont="Menlo:h13" 
+#filemanager = "fzf" #"Netrw" #"defx"
+filemanager = "vimfiler"
+guifont="Input:h12"
+# "IBM Plex Mono:h13"
+# "Fantasque Sans Mono:h13"
+# "Nitti:h13"
+# "Menlo:h13" 
 # "Pragmata Pro Mono:h13" 
 # "DecimaMonoX:h14" 
 # "Terminal Land Mono Sans:h13"
