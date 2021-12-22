@@ -39,7 +39,8 @@ windows_index_type = 3
 vimcompatible = true
 #filemanager = "fzf" #"Netrw" #"defx"
 filemanager = "vimfiler"
-guifont="Source Code Pro:h13"
+guifont="Atkinson Hypermono:h13"
+#"Source Code Pro:h13"
 # "Input Mono:h11"
 # "IBM Plex Mono:h13"
 # "Fantasque Sans Mono:h13"
