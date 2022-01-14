@@ -10,9 +10,9 @@
 repo = 'altercation/vim-colors-solarized'
 merged = 0
 
-[[custom_plugins]]
-repo = 'wsdjeg/vim-todo'
-merged = 0
+# [[custom_plugins]]
+# repo = 'wsdjeg/vim-todo'
+# merged = 0
 
 [[custom_plugins]]
 # requires `npm -g instant-markdown-d`
@@ -21,6 +21,10 @@ merged = 0
 
 [[custom_plugins]]
 repo = 'vim-scripts/dbext.vim'
+merged = 0
+
+[[custom_plugins]]
+repo = 'vlime/vlime'
 merged = 0
 
 [options]
@@ -40,7 +44,8 @@ windows_index_type = 3
 vimcompatible = true
 #filemanager = "fzf" #"Netrw" #"defx"
 filemanager = "vimfiler"
-guifont="Atkinson Hypermono:h13"
+guifont="M+ 1mn:h13"
+# "Atkinson Hypermono:h13"
 # "fixedsys excelsior 3.01:h14"
 # "Atkinson Hypermono:h13"
 # "IBM Plex Mono:h13"
