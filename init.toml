@@ -23,15 +23,19 @@ merged = 0
 repo = 'vim-scripts/dbext.vim'
 merged = 0
 
-[[custom_plugins]]
-repo = 'vlime/vlime'
-merged = 0
+# [[custom_plugins]]
+# repo = 'vlime/vlime'
+# merged = 0
+
+# [[custom_plugins]]
+# repo = 'preservim/nerdtree'
+# merged = 0
 
 [options]
 bootstrap_before = "spacevim#before"
-# colorscheme = "solarized" #"gruvbox" 
-colorscheme_bg = "dark"
-# colorscheme_bg = "light"
+colorscheme = "solarized" #"gruvbox" 
+# colorscheme_bg = "dark"
+colorscheme_bg = "light"
 enable_guicolors = false
 enable_statusline_mode = true
 enable_tabline_filetype_icon = false
@@ -42,9 +46,15 @@ statusline_iseparator = "nil"
 buffer_index_type = 0 #4
 windows_index_type = 3
 vimcompatible = true
-#filemanager = "fzf" #"Netrw" #"defx"
-filemanager = "vimfiler"
-guifont="M+ 1mn:h13"
+filemanager = "nerdtree"
+#enable_vimfiler_welcome = false
+guifont = "Spot Mono:h14"
+# "Anka/Coder:h13"
+# "source code pro:h14"
+# "Anonymous Pro:h15"
+# "proggyvector:h13"
+# "anonymous pro:h13"
+# "M+ 1mn:h13"
 # "Atkinson Hypermono:h13"
 # "fixedsys excelsior 3.01:h14"
 # "Atkinson Hypermono:h13"
