@@ -47,7 +47,7 @@ buffer_index_type = 0 #4
 windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
-#enable_vimfiler_welcome = false
+enable_vimfiler_welcome = true
 guifont = "Spot Mono:h14"
 # "Anka/Coder:h13"
 # "source code pro:h14"
