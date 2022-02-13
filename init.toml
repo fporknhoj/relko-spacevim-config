@@ -48,7 +48,7 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = “PT Mono:h13”
+guifont = "PT Mono:h13"
 # "Spot Mono:h14"
 # "Anka/Coder:h13"
 # "source code pro:h14"
