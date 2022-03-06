@@ -4,6 +4,12 @@ func! spacevim#before() abort
   nmap <S-Tab> :bprevious<CR>
   set clipboard=unnamed
   "let g:spacevim_enable_vimfiler_welcome = 1
-  "set fo=tcqn "format options += a for automatic 
-  "set tw=80 "textwidth = 80 cols 
+  "set fo=tcqn "format options += a for automatic
+  "set tw=80 "textwidth = 80 cols
+  if has("gui_running")
+  	set bg=light
+  	colo=solarized
+  endif
+  "set bg=light
+  "colo=solarized
 endf

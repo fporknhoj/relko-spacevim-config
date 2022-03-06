@@ -35,7 +35,7 @@ merged = 0
 bootstrap_before = "spacevim#before"
 colorscheme = "solarized" #"gruvbox"
 # colorscheme_bg = "dark"
-colorscheme_bg = "light"
+ colorscheme_bg = "light"
 enable_guicolors = false
 enable_statusline_mode = true
 enable_tabline_filetype_icon = false
@@ -48,20 +48,24 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = "PT Mono:h13"
-# "Spot Mono:h14"
-# "Anka/Coder:h13"
-# "source code pro:h14"
-# "Anonymous Pro:h15"
-# "proggyvector:h13"
-# "anonymous pro:h13"
-# "M+ 1mn:h13"
-# "Atkinson Hypermono:h13"
-# "fixedsys excelsior 3.01:h14"
-# "Atkinson Hypermono:h13"
-# "IBM Plex Mono:h13"
-# "Menlo:h13"
-# "DecimaMonoX:h14"
+ guifont = "Anka/Coder:h14" 
+# guifont = "Cascadia Mono:h13" 
+# guifont = "DejaVu Sans Mono:h14" 
+# guifont = "pt mono:h18" 
+# guifont = "IBM Plex Mono:h13"
+# guifont = "PT Mono:h13"
+# guifont = "Spot Mono:h14"
+# guifont = "Anka/Coder:h13"
+# guifont = "source code pro:h14"
+# guifont = "Anonymous Pro:h15"
+# guifont = "proggyvector:h13"
+# guifont = "anonymous pro:h13"
+# guifont = "M+ 1mn:h13"
+# guifont = "Atkinson Hypermono:h13"
+# guifont = "fixedsys excelsior 3.01:h14"
+# guifont = "Atkinson Hypermono:h13"
+# guifont = "Menlo:h13"
+# guifont = "DecimaMonoX:h14"
 automatic_update = true
 
 # Enable autocomplete layer
