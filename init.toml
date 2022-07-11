@@ -33,9 +33,9 @@ merged = 0
 
 [options]
 bootstrap_before = "spacevim#before"
-colorscheme = "solarized" #"gruvbox"
+# colorscheme = "solarized" #"gruvbox"
 # colorscheme_bg = "dark"
- colorscheme_bg = "light"
+# colorscheme_bg = "light"
 enable_guicolors = false
 enable_statusline_mode = true
 enable_tabline_filetype_icon = false
@@ -48,7 +48,8 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = "SFMono-Regular:h13"
+guifont = "Monaco:h12"
+# guifont = "SFMono-Regular:h13"
 # guifont = "Anka/Coder:h14" 
 # guifont = "Cascadia Mono:h13" 
 # guifont = "DejaVu Sans Mono:h14" 
