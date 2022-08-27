@@ -48,15 +48,17 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = "IBM Plex Mono:h13"
-# guifont = "Monaco:h12"
-# guifont = "Spot Mono:h15"
-# guifont = "Anka/Coder:h13"
-# guifont = "DecimaMonoX:h14"
-# guifont = "Inconsolata:h14"
-# guifont = "ProggyVector:h14"
-# guifont = "Space Mono:h14"
-# guifont = "Atkinson Hypermono:h13"
+guifont = "Courier Prime Sans:h14"
+#   "Rec Mono Linear:h14"
+# "IBM Plex Mono:h13"
+# "Monaco:h12"
+# "Spot Mono:h15"
+# "Anka/Coder:h13"
+# "DecimaMonoX:h14"
+# "Inconsolata:h14"
+# "ProggyVector:h14"
+# "Space Mono:h14"
+# "Atkinson Hypermono:h13"
 automatic_update = true
 
 # Enable autocomplete layer
