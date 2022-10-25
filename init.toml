@@ -34,8 +34,8 @@ merged = 0
 [options]
 bootstrap_before = "spacevim#before"
  colorscheme = "solarized" #"gruvbox"
- colorscheme_bg = "dark"
-# colorscheme_bg = "light"
+# colorscheme_bg = "dark"
+colorscheme_bg = "light"
 enable_guicolors = false
 enable_statusline_mode = true
 enable_tabline_filetype_icon = false
@@ -48,8 +48,14 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = "Courier Prime Sans:h14"
-#   "Rec Mono Linear:h14"
+guifont = "inconsolata:h15"
+#"code new roman:h14"
+#"Cascadia Code:h14"
+# 'pragmatapro:h14'
+# "Spot Mono:h13"
+# "ProggyVector:h13"
+# "Courier Prime Sans:h14"
+# "Rec Mono Linear:h14"
 # "IBM Plex Mono:h13"
 # "Monaco:h12"
 # "Spot Mono:h15"
