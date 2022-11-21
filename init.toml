@@ -48,7 +48,9 @@ windows_index_type = 3
 vimcompatible = true
 filemanager = "nerdtree"
 enable_vimfiler_welcome = true
-guifont = "inconsolata:h15"
+guifont = "courier prime sans:h14"
+# "input mono:h13"
+#"inconsolata:h15"
 #"code new roman:h14"
 #"Cascadia Code:h14"
 # 'pragmatapro:h14'
